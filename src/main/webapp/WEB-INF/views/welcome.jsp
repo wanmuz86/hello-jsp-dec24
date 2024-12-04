@@ -9,7 +9,7 @@
 <body>
 <h1>Hello World !</h1>
 <p>This is my first JSP page</p>
-<p>Adding Java code here </p>
+<p>Message: ${message}</p>	
 <%
 String serverTime = new java.util.Date().toString();
 String name = "Muzaffar";
